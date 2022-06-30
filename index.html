@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" width="150" src="https://play-lh.googleusercontent.com/8ZOzyfI-MD4br9KUww3AC9RP_6CY53kbtH6lbEmFiXyBGP0SVwhuBvwr6624C3ZLxA" alt="logo">
+        <div class="container-screen">
+            <p class="screen">Devinez le mot </p>
+            <img id="smiley" style="margin-left:9px;" width="30px" height="30px" src="https://images.emojiterra.com/google/android-10/512px/1f642.png">
+
+        </div>
+        <div class="mot-caché"></div>
+        <p>Il vous reste <span class="nmbreEssai"> 5 </span> essais</p>
+        <p class="historique"></p>
+        <form>
+            <label>Entrez une lettre:</label>
+            <input class="input">
+        </form>
+        <button class="devine">Guess!</button>
+
+        <p>@created by <span style="color:#ED213A;">noidkoko</span></p>
+    </div>
+</body>
+</html>
