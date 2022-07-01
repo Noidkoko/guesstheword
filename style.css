@@ -1,0 +1,80 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    font-family: 'Gantari', sans-serif;
+}
+input, label {
+    font-family: 'Gantari', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        height:100vh;
+}
+.container {
+    width: 500px;
+    height: 700px;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container * {
+    margin: 10px;
+}
+
+p {
+    font-weight: bold;
+
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.container-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nmbreEssai {
+    margin: 0 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.devine {
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 300px;
+    background: #ed2139;  /* fallback for old browsers */
+    border-radius: 988px;
+    font-size: 29px;
+}
+.logo, .devine {
+    transition: .2s ease;
+}
+.devine:hover, .logo:hover {
+    transform: scale(1.049);
+    transition: .2s ease;
+}
+
+.mot-caché {
+    font-size: 42px;
+    letter-spacing: 10px;
+}
